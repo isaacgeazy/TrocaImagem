@@ -5,6 +5,11 @@ function mudarImagem() {
     text.style.transition = "all 1.7s";
     var imagem = window.document.getElementById('imagem');
     imagem.src = "img/nocturn.jpg";
-    var cor = window.document.getElementById('container').style.backgroundColor = 'rgb(70, 70, 70)';
+    imagem.style.border = "2px solid black"
+    var cor = window.document.getElementById('container');
+    cor.style.backgroundColor = 'rgb(70, 70, 70)';
+    cor.style.transition = "all 1.7s";
+    cor.style.border = "7px solid #332F27";
+    
 
 }
